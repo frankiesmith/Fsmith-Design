@@ -1,16 +1,17 @@
 jQuery(document).ready(function($) {
 function toggleTopBar() {
   viewportHeight = $( window ).height() -60;
-  if ($(this).scrollTop() > viewportHeight) {
+/*  if ($(this).scrollTop() > viewportHeight) {
     $("header").fadeIn();
   } else {
     $("header").fadeOut();
-  }
+  }*/
 }
 
 $(window).scroll( toggleTopBar );
 
 $(toggleTopBar);
+
 
 /*jQuery('header').on('click','a',function(e){
   if(e.target.href.indexOf('#') !== -1 ){
@@ -37,7 +38,7 @@ jQuery('header').on('click','a',function(e){
 });
 
 $(window).scroll(function() {
-		var scrollDistance = $(window).scrollTop() +120;
+		var scrollDistance = $(window).scrollTop() +320;
 	
 		// Assign active class to nav links while scolling
 		$('section').each(function(i) {
@@ -47,5 +48,19 @@ $(window).scroll(function() {
 				}
 		});
 }).scroll();
+
+$.stellar({
+  horizontalScrolling: false
+});
+
+$.fn.autoscroll = function(selector) {
+        $('html, body').animate({
+            scrollTop: jQuery(this).offset().top -50
+        }, 900);
+    }
+
+    $('.scroll-down').on('click', function() {
+        $('#about-me').autoscroll();
+    });
 
 });

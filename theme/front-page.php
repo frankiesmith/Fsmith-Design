@@ -20,7 +20,10 @@ get_header(); ?>
     endwhile; // End of the loop.
     ?>
 
-    <div class="hero">
+    <div class="hero" data-stellar-background-ratio="0.5">
+      <div href="#about-me" class="scroll-down">
+        <?php echo file_get_contents( get_template_directory() . '/img/scroll.svg' ); ?>
+      </div>
 </div>
 <section id="about-me" class="about-me">
   <div class="title-container">
@@ -88,6 +91,26 @@ get_header(); ?>
         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/Neche.jpg' alt=''>
         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/Neche.jpg' alt=''>
         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/Neche.jpg' alt=''>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="contact">
+  <div class="title-container">
+    <div class="section-title">
+      <h1>Contact</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="column content">
+        <div class="form-wrapper">
+        <?php
+        echo do_shortcode('[wpforms id="19" title="false" description="false"]')
+          ?>
+        </div>
+      </div>
+      <div class="column something">
       </div>
     </div>
   </div>
