@@ -1,11 +1,11 @@
 jQuery(document).ready(function($) {
 function toggleTopBar() {
   viewportHeight = $( window ).height() -60;
-/*  if ($(this).scrollTop() > viewportHeight) {
+if ($(this).scrollTop() > viewportHeight) {
     $("header").fadeIn();
   } else {
     $("header").fadeOut();
-  }*/
+  }
 }
 
 $(window).scroll( toggleTopBar );
