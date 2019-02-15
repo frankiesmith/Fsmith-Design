@@ -33,12 +33,10 @@ get_header(); ?>
   </div>
   <div class="container">
     <div class="wrapper">
-      <div class="column column-1 featured-image bio">
+      <div class="column content">
+        About Me content
       </div>
-      <div class="column column-2">
-        <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere ullamcorper lectus vitae sollicitudin. Maecenas ac efficitur lorem. In varius, metus a tempor fermentum, sem nisi efficitur tortor, congue euismod mi justo sit amet massa. Morbi gravida bibendum sapien, ut cursus augue convallis sit amet. Vestibulum gravida vel dolor eu dignissim. Etiam luctus est vel consectetur auctor. Sed nisl turpis, pellentesque ac velit sed, auctor vehicula felis. Pellentesque consequat vehicula tempus. Aliquam nec eleifend nunc, a malesuada quam. Mauris ac faucibus tortor.</p>
-        </div>
+      <div class="column something">
       </div>
     </div>
   </div>
@@ -59,7 +57,7 @@ get_header(); ?>
         </div>
         <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image">
+      <div class="column-2 lap-top">
       </div>
     </div>
     <div class="wrapper reverse">
@@ -71,7 +69,7 @@ get_header(); ?>
         </div>
         <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column column-2 featured-image">
+      <div class="column column-2 lap-top">
       </div>
     </div>
   </div>
@@ -82,6 +80,9 @@ get_header(); ?>
       <h1>More Projects</h1>
     </div>
   </div>
+  <div class="container">
+  </div>
+  <div class="banner">
     <div class="container">
       <div class="wrapper">
         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/Neche.jpg' alt=''>
@@ -92,6 +93,7 @@ get_header(); ?>
         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/Neche.jpg' alt=''>
       </div>
     </div>
+  </div>
 </section>
 <section id="contact" class="contact">
   <div class="title-container">

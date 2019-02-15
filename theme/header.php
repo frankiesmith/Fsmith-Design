@@ -23,9 +23,6 @@
 <div id="page" class="site">
 
   <header id="masthead" class="site-header">
-    <div class="logo">
-      <?php echo file_get_contents( get_template_directory() . '/img/logo.svg' ); ?>
-    </div>
 
     <nav id="site-navigation" class="main-navigation">
       <?php
