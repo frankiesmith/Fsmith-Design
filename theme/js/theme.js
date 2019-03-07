@@ -63,4 +63,14 @@ $.fn.autoscroll = function(selector) {
         $('#about-me').autoscroll();
     });
 
+
+    /* Modal */
+$('.show').click(function(e){
+        $(e.currentTarget).siblings('.modal-overlay').addClass('active').find('.modal').addClass('active');
+    });
+
+    $('.close-modal, .modal-overlay').click(function(e){
+        $('.modal, .modal-overlay').removeClass('active');
+    });
+
 });
