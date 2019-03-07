@@ -25,7 +25,9 @@ get_header(); ?>
         <div class="logo">
           <?php echo file_get_contents( get_template_directory() . '/img/logo.svg' ); ?>
         </div>
-        <h1>Hi, I'm Frankie.</h1>
+          <div class="typewriter">
+              <h1>Hi, I'm Frankie.</h1>
+          </div>
         <h2>I'm a UX Designer and Developer.</h2>
       </div>
       <div href="#about-me" class="scroll-down">
