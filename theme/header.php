@@ -25,6 +25,13 @@
   <header id="masthead" class="site-header">
     <div class="logo">
       <?php echo file_get_contents( get_template_directory() . '/img/logo.svg' ); ?>
+      <div class="hamburger-wrapper">
+      <a class="hamburger-icon" href="#" title="Menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </a>
+      </div>
     </div>
 
     <nav id="site-navigation" class="main-navigation">

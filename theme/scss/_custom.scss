@@ -77,20 +77,29 @@ section {
 }
 
 header {
+    background: $gray;
     position: fixed;
     top: 0;
-    background: $gray;
     width: 100%;
     z-index: 100;
 
+    @media (max-width: $breakpoint-medium) {
+        background: none;
+    }
+
     .logo {
+        background: $gray;
         width: 39px;
         left: 25px;
         top: 5px;
         position: absolute;
 
         @media (max-width: $breakpoint-medium) {
-            position: static;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
             margin: auto;
             width: 100%;
             display: flex;
@@ -107,6 +116,89 @@ header {
     }
 }
 
+/* Hamburger Styles */
+$height-icon: 20px;
+$width-line: 35px;
+$height-line: 3px;
+
+$transition-time: 0.4s;
+$rotation: 45deg;
+$translateY: $height-icon / 2;
+$translateX: 0;
+
+.hamburger-wrapper {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.hamburger-icon {
+    width: $width-line;
+    height: $height-icon;
+    margin: auto;
+    position: relative;
+    display: block;
+
+    .line {
+        display: block;
+        background: #fff;
+        width: $width-line;
+        height: $height-line;
+        position: absolute;
+        left: 0;
+        border-radius: $height-line / 2;
+        transition: all $transition-time;
+        -webkit-transition: all $transition-time;
+        -moz-transition: all $transition-time;
+
+        &.line-1 {
+            top: 0;
+        }
+
+        &.line-2 {
+            top: 50%;
+        }
+
+        &.line-3 {
+            top: 100%;
+        }
+    }
+
+    &:hover {
+        .line-1 {
+            transform: translateY($height-line / 2 * -1);
+            -webkit-transform: translateY($height-line / 2 * -1);
+            -moz-transform: translateY($height-line / 2 * -1);
+        }
+
+        .line-3 {
+            transform: translateY($height-line / 2);
+            -webkit-transform: translateY($height-line / 2);
+            -moz-transform: translateY($height-line / 2);
+        }
+    }
+
+    &.active {
+        .line-1 {
+            transform: translateY($translateY) translateX($translateX) rotate($rotation);
+            -webkit-transform: translateY($translateY) translateX($translateX) rotate($rotation);
+            -moz-transform: translateY($translateY) translateX($translateX) rotate($rotation);
+        }
+
+        .line-2 {
+            opacity: 0;
+        }
+
+        .line-3 {
+            transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
+            -webkit-transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
+            -moz-transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
+        }
+    }
+}
+
 .main-navigation {
     display: flex;
     align-items: center;
@@ -117,6 +209,10 @@ header {
 
     @media (max-width: $breakpoint-medium) {
         display: block;
+        background: url("/wp-content/uploads/2019/02/cover-image-shorter.jpg") center no-repeat;
+        background-size: cover;
+        background-color: darken($gray, 10%);
+        background-blend-mode: multiply;
     }
 
     ul {
@@ -151,6 +247,11 @@ header {
                 &.active {
                     color: white;
                     background-color: $blue;
+
+                    @media (max-width: $breakpoint-medium) {
+                        color: white;
+                        background: rgba($blue, 0.4);
+                    }
                 }
             }
         }
