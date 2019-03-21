@@ -43,10 +43,16 @@ $(window).scroll(function() {
 		// Assign active class to nav links while scolling
 		$('section').each(function(i) {
 				if ($(this).position().top <= scrollDistance) {
-						$('.main-navigation a.active').removeClass('active');
-						$('.main-navigation a').eq(i).addClass('active');
+						$('.nav-1 a.active').removeClass('active');
+						$('.nav-1 a').eq(i).addClass('active');
 				}
 		});
+        $('section').each(function(i) {
+        if ($(this).position().top <= scrollDistance) {
+            $('.nav-2 a.active').removeClass('active');
+            $('.nav-2 a').eq(i).addClass('active');
+        }
+    });
 }).scroll();
 
 $.stellar({
