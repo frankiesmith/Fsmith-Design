@@ -109,13 +109,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Partea Booze Infusers</h2>
+          <h2>Yarmouth Chamber of Commerce</h2>
           <h3>Design, UX, Development, WordPress</h3>
           <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
         </div>
-        <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
+        <a href="https://www.yarmouthcapecod.com/" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image partea">
+      <div class="column-2 featured-image yarmouth">
       </div>
     </div>
           </div>
@@ -132,13 +132,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Partea Booze Infusers</h2>
+          <h2>Cambria Hotels</h2>
           <h3>Design, UX, Development, WordPress</h3>
           <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
         </div>
-        <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
+        <a href="http://cambria-internet-access.webflow.io/access-form" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image partea">
+      <div class="column-2 featured-image cambria">
       </div>
     </div>
           </div>
@@ -155,13 +155,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Partea Booze Infusers</h2>
+          <h2>Curry College</h2>
           <h3>Design, UX, Development, WordPress</h3>
           <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
         </div>
-        <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
+        <a href="http://curry-portal-forms.webflow.io" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image partea">
+      <div class="column-2 featured-image curry">
       </div>
     </div>
           </div>
@@ -178,13 +178,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Partea Booze Infusers</h2>
+          <h2>Triad Advertising Companies</h2>
           <h3>Design, UX, Development, WordPress</h3>
           <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
         </div>
-        <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
+        <a href="https://www.triadadvertising.com/" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image partea">
+      <div class="column-2 featured-image triad">
       </div>
     </div>
           </div>
@@ -192,7 +192,7 @@ playing guitar with my band.</p>
       </div>
         </div>
         <div class="featured">
-          <img class="show" aria-haspopup="true" src='/wp-content/uploads/2019/02/msu.jpg' alt=''>
+          <img class="show" aria-haspopup="true" src='/wp-content/uploads/2019/02/rad-dads.jpg' alt=''>
               <div class="modal-overlay">
         <div class="modal"><a class="close-modal"><svg viewBox="0 0 20 20">
             <path fill="#4C4C4E" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
@@ -201,13 +201,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Partea Booze Infusers</h2>
+          <h2>The Rad Dads</h2>
           <h3>Design, UX, Development, WordPress</h3>
           <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
         </div>
-        <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
+        <a href="https://theraddads.netlify.com/index.html" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image partea">
+      <div class="column-2 featured-image rad-dads">
       </div>
     </div>
           </div>
@@ -224,13 +224,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Partea Booze Infusers</h2>
+          <h2>MBTA Rail Vision</h2>
           <h3>Design, UX, Development, WordPress</h3>
           <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
         </div>
-        <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
+        <a href="https://mbtarailvisionsurvey.com" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image partea">
+      <div class="column-2 featured-image mbta">
       </div>
     </div>
           </div>
