@@ -7,24 +7,27 @@
  * @package fivehdstarter
  */
 
-get_header(); ?>
+get_header();
+?>
 
   <div id="primary" class="content-area">
     <main id="main" class="site-main">
 
     <?php
-    while ( have_posts() ) : the_post();
-
-      get_template_part( 'template-parts/content', 'page' );
-
-    endwhile; // End of the loop.
-    ?>
+while (have_posts()):
+    the_post();
+    
+    get_template_part('template-parts/content', 'page');
+endwhile; // End of the loop.
+?>
 
     <div class="hero" data-stellar-background-ratio="0.5">
       <div class="hero-content">
         <div class="logo">
-          <?php echo file_get_contents( get_template_directory() . '/img/logo.svg' ); ?>
-        </div>
+          <?php
+echo file_get_contents(get_template_directory() . '/img/logo.svg');
+?>
+       </div>
           <div class="typewriter">
               <h1>Hi, I'm Frankie.</h1>
           </div>
@@ -32,8 +35,10 @@ get_header(); ?>
       </div>
       <div href="#about-me" class="scroll-down">
         <h3>Learn more about what I do</h3>
-        <?php echo file_get_contents( get_template_directory() . '/img/scroll.svg' ); ?>
-      </div>
+        <?php
+echo file_get_contents(get_template_directory() . '/img/scroll.svg');
+?>
+     </div>
 </div>
 <section id="about-me" class="about-me">
   <div class="title-container">
@@ -251,9 +256,9 @@ playing guitar with my band.</p>
       <div class="column content">
         <div class="form-wrapper">
         <?php
-        echo do_shortcode('[wpforms id="19" title="false" description="false"]')
-          ?>
-        </div>
+echo do_shortcode('[wpforms id="19" title="false" description="false"]');
+?>
+       </div>
         <div class="resume"><a href="/wp-content/uploads/2019/03/frankie-smith-resume.pdf" target=_blank>VIEW RESUME</a></div>
       </div>
       <div class="column something">
