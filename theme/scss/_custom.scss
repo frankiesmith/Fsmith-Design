@@ -82,6 +82,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 100;
+    display: none;
 
     @media (max-width: $breakpoint-medium) {
         background: none;
@@ -226,6 +227,22 @@ $translateX: 0;
                     @media (max-width: $breakpoint-medium) {
                         color: white;
                         background: rgba($blue, 0.4);
+                    }
+
+                    &:hover {
+                        background-color: $blue;
+
+                        @media (max-width: $breakpoint-medium) {
+                            background: rgba($blue, 0.4);
+                        }
+                    }
+                }
+
+                &:hover {
+                    background: lighten($gray, 10%);
+
+                    @media (max-width: $breakpoint-medium) {
+                        background: none;
                     }
                 }
             }
@@ -563,6 +580,22 @@ $translateX: 0;
     }
 }
 
+.resume {
+    text-align: center;
+    margin-top: 25px;
+
+    a {
+        color: #fff;
+        font-weight: 700;
+        transition: .4s ease;
+
+        &:hover {
+            color: $red;
+            transition: .4s ease;
+        }
+    }
+}
+
 .featured-image {
     height: 300px;
     margin-top: 30px;
@@ -797,6 +830,60 @@ only show for tablet and up */
             right: 20px !important;
             top: 20px !important;
         }
+    }
+}
+
+/* Footer */
+footer {
+    background: $gray;
+    color: #fff;
+    position: relative;
+
+    a {
+        color: #fff;
+        transition: .4s ease;
+
+        &:hover {
+            color: $red;
+            transition: .4s ease;
+        }
+    }
+}
+
+.copyright {
+    color: lighten($gray, 50%);
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+
+    p {
+        margin: 0;
+
+        @media (max-width: $breakpoint-medium) {
+            margin: 20px 0 0 0;
+        }
+    }
+
+    @media (max-width: $breakpoint-medium) {
+        position: static;
+    }
+}
+
+.social {
+    text-align: right;
+    font-size: 1.8rem;
+    word-spacing: 5px;
+    position: relative;
+    z-index: 500;
+
+    @media (max-width: $breakpoint-medium) {
+        text-align: center;
     }
 }
 

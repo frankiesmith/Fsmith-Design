@@ -4,7 +4,7 @@ add_theme_support( 'title-tag' );
 
 function fivehd_enqueue_scripts_styles() {
   // wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=' );
-  // wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/releases/v5.0.6/js/all.js', array(), false, true );
+  wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/releases/v5.0.6/js/all.js', array(), false, true );
 
   // **Everything** Foundation JS.
   // @todo: allow individual modules to be included, as required.

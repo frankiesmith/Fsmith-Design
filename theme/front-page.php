@@ -70,7 +70,7 @@ playing guitar with my band.</p>
         <div class="content">
           <h2>Partea Booze Infusers</h2>
           <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol.</p>
         </div>
         <a href="https://www.infusethebooze.com/" target="_blank" class="button">View Website</a>
       </div>
@@ -82,7 +82,7 @@ playing guitar with my band.</p>
         <div class="content">
           <h2>New England Commission of Higher Education (NECHE)</h2>
           <h3>UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <p>The New England Commission of Higher Education (NECHE) is the regional accreditation agency for colleges and universities in the six New England states: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. Three institutions in Greece, three in Switzerland, two in Lebanon, and one in Bulgaria, Bermuda, and Morocco, respectively, are also affiliated with NECHE.</p>
         </div>
         <a href="https://www.neche.org/" target="_blank" class="button">View Website</a>
       </div>
@@ -111,7 +111,7 @@ playing guitar with my band.</p>
         <div class="content">
           <h2>Yarmouth Chamber of Commerce</h2>
           <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <p>Yarmouth embodies the spirit of Cape Cod – from the coastlines of Nantucket Sound and Cape Cod Bay, to the shops and businesses anchoring our community, the locals residing here for generations, and the extended families returning year after year.</p>
         </div>
         <a href="https://www.yarmouthcapecod.com/" target="_blank" class="button">View Website</a>
       </div>
@@ -133,8 +133,8 @@ playing guitar with my band.</p>
       <div class="column-1">
         <div class="content">
           <h2>Cambria Hotels</h2>
-          <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <h3>Development</h3>
+          <p>Cambria Hotels is a modern and stylish hotel chain affiliated with Choice Hotels. Their market is made up of mostly young professionals. This project features the UI for the hotel's wifi service. This is what a guest sees when they want to connect.</p>
         </div>
         <a href="http://cambria-internet-access.webflow.io/access-form" target="_blank" class="button">View Website</a>
       </div>
@@ -156,8 +156,8 @@ playing guitar with my band.</p>
       <div class="column-1">
         <div class="content">
           <h2>Curry College</h2>
-          <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <h3>Design, UX, Development</h3>
+          <p>Curry College is a private institution located in Milton, MA. This is a portal that was designed for prospective students to use throughout the whole application process. This allows students to have all their records available in one place and to make communication simple between the prospective student and the institution.</p>
         </div>
         <a href="http://curry-portal-forms.webflow.io" target="_blank" class="button">View Website</a>
       </div>
@@ -180,7 +180,7 @@ playing guitar with my band.</p>
         <div class="content">
           <h2>Triad Advertising Companies</h2>
           <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <p>The Triad Advertising Companies builds lasting brands by making advertising approachable, effective, and powerful. Connecting brands to consumers in tangible, digital, and promotional ways.</p>
         </div>
         <a href="https://www.triadadvertising.com/" target="_blank" class="button">View Website</a>
       </div>
@@ -202,8 +202,8 @@ playing guitar with my band.</p>
       <div class="column-1">
         <div class="content">
           <h2>The Rad Dads</h2>
-          <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <h3>Design, UX, Development</h3>
+          <p>The Rad Dads are a four piece Alternative/Indie band from Boston, MA.</p>
         </div>
         <a href="https://theraddads.netlify.com/index.html" target="_blank" class="button">View Website</a>
       </div>
@@ -225,8 +225,8 @@ playing guitar with my band.</p>
       <div class="column-1">
         <div class="content">
           <h2>MBTA Rail Vision</h2>
-          <h3>Design, UX, Development, WordPress</h3>
-          <p>ParTea makes booze infusers – blends of organic fruits, herbs and spices packaged in “tea bags” at perfect proportions to flavor your favorite alcohol</p>
+          <h3>UX, Development</h3>
+          <p>MBTA Rail Vision will identify cost-effective strategies to transform the existing Commuter Rail system into one that better supports improved mobility and economic competitiveness in the Greater Boston region. This survey was built in order to collect information from people who do not usually commute via commuter rail. All results from survey are sent to the Rail Vision team to be evaluated.</p>
         </div>
         <a href="https://mbtarailvisionsurvey.com" target="_blank" class="button">View Website</a>
       </div>
@@ -254,6 +254,7 @@ playing guitar with my band.</p>
         echo do_shortcode('[wpforms id="19" title="false" description="false"]')
           ?>
         </div>
+        <div class="resume"><a href="/wp-content/uploads/2019/03/frankie-smith-resume.pdf" target=_blank>VIEW RESUME</a></div>
       </div>
       <div class="column something">
       </div>
