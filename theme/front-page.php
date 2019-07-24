@@ -115,7 +115,7 @@ playing guitar with my band.</p>
       <div class="column-1">
         <div class="content">
           <h2>Yarmouth Chamber of Commerce</h2>
-          <h3>Design, UX, Development, WordPress</h3>
+          <h3>UX, Development, WordPress</h3>
           <p>Yarmouth embodies the spirit of Cape Cod – from the coastlines of Nantucket Sound and Cape Cod Bay, to the shops and businesses anchoring our community, the locals residing here for generations, and the extended families returning year after year.</p>
         </div>
         <a href="https://www.yarmouthcapecod.com/" target="_blank" class="button">View Website</a>
@@ -184,7 +184,7 @@ playing guitar with my band.</p>
       <div class="column-1">
         <div class="content">
           <h2>Triad Advertising Companies</h2>
-          <h3>Design, UX, Development, WordPress</h3>
+          <h3>UX, Development, WordPress</h3>
           <p>The Triad Advertising Companies builds lasting brands by making advertising approachable, effective, and powerful. Connecting brands to consumers in tangible, digital, and promotional ways.</p>
         </div>
         <a href="https://www.triadadvertising.com/" target="_blank" class="button">View Website</a>
