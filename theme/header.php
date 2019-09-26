@@ -21,6 +21,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
+<!--   Test -->
 
   <header id="masthead" class="site-header">
     <div class="logo">
