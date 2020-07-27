@@ -57,7 +57,7 @@ thoughtful design. I like to keep myself informed
 in the ever changing world of technology by
 attending conferences and networking events.
 Outside of work, I enjoy a good road trip and
-playing guitar with my band.</p>
+playing guitar with my band. Hi Kate.</p>
         </div>
       </div>
     </div>
