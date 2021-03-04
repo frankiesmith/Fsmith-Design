@@ -22,7 +22,7 @@
 	    		<a href="https://codepen.io/frankiesmith" target="_blank"><i class="fab fa-codepen social-icon"></i></a>
 	    	</div>
 	    	<div class="column copyright">
-	    		<p>Frankie Smith ®2019</p>
+	    		<p>Frankie Smith ®<?php echo date('Y'); ?></p>
 	    	</div>
 	    </div>
     </div><!-- .site-info -->
