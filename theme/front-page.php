@@ -31,7 +31,7 @@ echo file_get_contents(get_template_directory() . '/img/logo.svg');
           <div class="typewriter">
               <h1>Hi, I'm Frankie.</h1>
           </div>
-        <h2>I'm a UX Designer and Developer.</h2>
+        <h2>I'm a UX Designer and <br>Front-end Web Developer.</h2>
       </div>
       <div href="#about-me" class="scroll-down">
         <h3>Learn more about what I do</h3>
@@ -85,13 +85,13 @@ playing guitar with my band.</p>
     <div class="wrapper reverse">
       <div class="column column-1">
         <div class="content">
-          <h2>New England Commission of Higher Education (NECHE)</h2>
-          <h3>UX, Development, WordPress</h3>
-          <p>The New England Commission of Higher Education (NECHE) is the regional accreditation agency for colleges and universities in the six New England states: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. Three institutions in Greece, three in Switzerland, two in Lebanon, and one in Bulgaria, Bermuda, and Morocco, respectively, are also affiliated with NECHE.</p>
+          <h2>Curry College</h2>
+          <h3>Design, UX, Development, WordPress</h3>
+          <p>Curry College is a private institution located in Milton, MA. This microsite was designed to assist prospects of Curry's Graduate programs during the application process.</p>
         </div>
-        <a href="https://www.neche.org/" target="_blank" class="button">View Website</a>
+        <a href="https://goals.curry.edu/" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column column-2 featured-image neche">
+      <div class="column column-2 featured-image curry">
       </div>
     </div>
   </div>
@@ -151,7 +151,7 @@ playing guitar with my band.</p>
       </div>
         </div>
         <div class="featured">
-          <img class="show" aria-haspopup="true" src='/wp-content/uploads/2019/02/curry.jpg' alt=''>
+          <img class="show" aria-haspopup="true" src='/wp-content/uploads/2021/03/neche-cover.jpg' alt=''>
               <div class="modal-overlay">
         <div class="modal"><a class="close-modal"><svg viewBox="0 0 20 20">
             <path fill="#4C4C4E" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
@@ -160,13 +160,13 @@ playing guitar with my band.</p>
         <div class="wrapper">
       <div class="column-1">
         <div class="content">
-          <h2>Curry College</h2>
-          <h3>Design, UX, Development</h3>
-          <p>Curry College is a private institution located in Milton, MA. This is a portal that was designed for prospective students to use throughout the whole application process. This allows students to have all their records available in one place and to make communication simple between the prospective student and the institution.</p>
+          <h2>New England Commission of Higher Education (NECHE)</h2>
+          <h3>UX, Development, WordPress</h3>
+          <p>The New England Commission of Higher Education (NECHE) is the regional accreditation agency for colleges and universities in the six New England states: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. Three institutions in Greece, three in Switzerland, two in Lebanon, and one in Bulgaria, Bermuda, and Morocco, respectively, are also affiliated with NECHE.</p>
         </div>
-        <a href="http://curry-portal-forms.webflow.io" target="_blank" class="button">View Website</a>
+        <a href="https://www.neche.org/" target="_blank" class="button">View Website</a>
       </div>
-      <div class="column-2 featured-image curry">
+      <div class="column-2 featured-image neche">
       </div>
     </div>
           </div>

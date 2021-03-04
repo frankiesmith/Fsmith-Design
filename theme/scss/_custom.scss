@@ -654,7 +654,14 @@ $translateX: 0;
     }
 
     &.curry {
-        background-image: url("/wp-content/uploads/2019/03/curry-mock.jpg");
+        background-image: url("/wp-content/uploads/2021/03/goals-curry-mock-featured.jpg");
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    &.neche {
+        background-image: url("/wp-content/uploads/2021/03/neche-mock.jpg");
         background-size: contain;
         background-position: top center;
         background-repeat: no-repeat;
